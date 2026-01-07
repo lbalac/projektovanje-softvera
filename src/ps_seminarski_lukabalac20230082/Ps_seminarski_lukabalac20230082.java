@@ -4,6 +4,8 @@
  */
 package ps_seminarski_lukabalac20230082;
 
+import forms.LoginForm;
+
 /**
  *
  * @author balac
@@ -14,7 +16,7 @@ public class Ps_seminarski_lukabalac20230082 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //od negde se mora poceti :)
+        new LoginForm().setVisible(true);
     }
     
 }
